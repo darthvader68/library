@@ -27,6 +27,7 @@ header h1 {
     font-family: 'Cinzel Decorative';
     padding: 1rem;
     text-align: center;
+    color: #fafcd3;
 }
 
 nav ul {
@@ -36,7 +37,17 @@ nav ul {
 a {
     text-decoration: none;
     color: whitesmoke;
-    padding: 10px;
+    padding: 5px;
+}
+
+a:hover {
+    color: #fafcd3;
+    font-size: 1.5em;
+    transition: .7s;
+}
+
+main {
+    padding: 1rem;
 }
 
 main h2 {
@@ -45,9 +56,47 @@ main h2 {
 
 main p {
     font-family: 'Macondo', sans-serif;
+    line-height: 10px;
+}
+
+#formulary  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+input {
+    align-self: start;
+    width: 90%;
+    height: 30px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #3F413E;
+    border: 2px solid #fafcd3;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    background-color: #fafcd3;
+    color: #3F413E;
+    font-weight: 600;
 }
 
 img {
-    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    width: 350px;
     height: 350px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
 }
